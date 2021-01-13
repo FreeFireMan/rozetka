@@ -3,7 +3,10 @@ import './header.css'
 import {useSelector} from "react-redux";
 
 export default function Header(){
-    //const favorites=useSelector((state)=>state);
+    const arrOfFavorites=useSelector((state)=>state.favorites);
+    console.log('----------------------arrOfFavorites----------------------');
+    console.log(arrOfFavorites);
+    console.log('----------------------arrOfFavorites----------------------');
 
     return (
         <div className={'header'}>

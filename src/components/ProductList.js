@@ -10,7 +10,7 @@ export default function ProductList(){
         fetch('https://fakestoreapi.com/products')
             .then(res=>res.json())
             .then(json=>setProducts(json));
-    },[])
+    },[setProducts])
 
     return (
 

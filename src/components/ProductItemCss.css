@@ -1,0 +1,26 @@
+.product-item img{
+ width: 100px;
+ height: 100px;
+}
+.product-item{
+ width: 150px;
+border: lightgray solid 1pt;
+}
+.heart{
+ font-size: 25px;
+ color: gray;
+}
+.add{
+ color: gray;
+font-size: 25px;
+}
+.title{
+ height: 25px;
+ overflow: hidden;
+}
+.wrap{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
